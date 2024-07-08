@@ -1,4 +1,4 @@
 # todo_app
 
-Flutter Project to learning dart & flutter\
+Flutter Project to learn dart & flutter\
 Simple TODO app
