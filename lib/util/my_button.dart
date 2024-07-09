@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
@@ -18,7 +20,10 @@ class MyButton extends StatelessWidget {
     return MaterialButton(
       onPressed: onPressed,
       color: colorScheme.tertiary,
-      child: Text(text),
+      child: Text(
+        text, 
+        style: TextStyle(color: Colors.white),
+      ),
     );
   }
 }
